@@ -5,7 +5,7 @@ import type { ComponentsObject3 } from './ComponentsObject3';
 import type { SecurityRequirementObject3 } from './SecurityRequirementObject3';
 import type { TagObject3 } from './TagObject3';
 import type { ExternalDocObject3 } from './ExternalDocObject3';
-import { WithExtensions } from './WithExtensions';
+import type { WithExtensions } from './WithExtensions';
 
 /* Spec: https://spec.openapis.org/oas/v3.0.3#openapi-object */
 export interface OpenApiObject3 extends WithExtensions {
