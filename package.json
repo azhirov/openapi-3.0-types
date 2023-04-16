@@ -1,6 +1,6 @@
 {
   "name": "openapi-3.0-types",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package provides TypeScript types for OpenAPI 3.0 specifications, based on the official OpenAPI Specification.",
   "typings": "dist/index.d.ts",
   "scripts": {
