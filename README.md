@@ -2,6 +2,12 @@
 
 This package provides TypeScript types for OpenAPI 3.0, based on the official [OpenAPI Specification 3.0.3](https://spec.openapis.org/oas/v3.0.3). These types allow you to validate and type-check your OpenAPI documents in TypeScript, providing improved documentation and confidence in your API contracts.
 
+## Installation
+
+```
+npm i --save-dev openapi-3.0-types
+```
+
 ## Usage
 
 To use the OpenAPI types in your TypeScript project, simply import them as needed:
