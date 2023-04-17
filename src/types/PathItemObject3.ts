@@ -5,7 +5,9 @@ import type { ReferenceObject3 } from './ReferenceObject3';
 import type { OperationObject3 } from './OperationObject3';
 
 type OperationType = 'get' | 'put' | 'post' | 'delete' | 'options' | 'head' | 'patch' | 'trace';
-type Operations = Record<OperationType, OperationObject3 | undefined>;
+type Operations = {
+  [key in OperationType]?: OperationObject3;
+};
 
 /* Describes the operations available on a single path.
   A Path Item MAY be empty, due to ACL constraints.

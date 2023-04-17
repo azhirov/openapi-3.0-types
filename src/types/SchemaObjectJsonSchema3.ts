@@ -54,7 +54,7 @@ export interface SchemaObjectJsonSchema3 {
   minProperties?: number;
 
   // https://datatracker.ietf.org/doc/html/draft-wright-json-schema-validation-00#section-5.15
-  required: string[];
+  required?: string[];
 
   // https://datatracker.ietf.org/doc/html/draft-wright-json-schema-validation-00#section-5.20
   enum?: any[]
